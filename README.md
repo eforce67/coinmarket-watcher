@@ -1,8 +1,9 @@
 # coin market-watcher
 this is a tool that scrapes data hourly off from https://coinmarketcap.com/ without the use of proxies, it is a small project that I created for viewing certain coins on the market
+> supports Python 3.8+
 
 # HOW IT WORKS?:
-- this program works by sending a request every 1 hour to the website coinmarketcap.com, this is not the best way as it can get you rated limited sometimes but I highly doubt that since it just sending requests every hour
+- this program works by sending a request every 1 hour to the website coinmarketcap.com, this is not the best way as it can get you rated limited sometimes but I highly doubt that since it just sends requests every hour
 - made using beautiful soup to web scrape
 
 - run the main file, main.py in order to start the program
